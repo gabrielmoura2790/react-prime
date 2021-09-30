@@ -5,6 +5,8 @@ const Stack = createNativeStackNavigator();
 
 import Home from '../pages/Home';
 import Detail from '../pages/Detail';
+import Search from '../pages/Search';
+import { theme } from '../global/styles/theme';
 
 function StackRoutes() {
   return (
@@ -23,6 +25,21 @@ function StackRoutes() {
         options={{
           headerShown: false,
           title: "Detalhes",
+        }}
+      />
+
+      <Stack.Screen
+        name="Search"
+        component={Search}
+        options={{
+          title: "Sua Busca",
+          headerTintColor: "#FFF",
+          headerTitleStyle: {
+            coor: "#FFF",
+          },
+          headerStyle: {
+            backgroundColor: theme.colors.background,
+          }
         }}
       />
     </Stack.Navigator>
