@@ -6,7 +6,7 @@ App desenvolvido no Insider 4.0 React Native. Um aplicativo onde você pode proc
 ## ✨ Tecnologias
 
 -   [ ] React Native
--   [ ] Javacript
+-   [ ] JavaScript
 -   [ ] Expo
 -   [ ] Async Storage
 -   [ ] React Native Webview
